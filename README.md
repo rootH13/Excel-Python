@@ -7,5 +7,7 @@ My first step was to remove any null data that appears blank in Excel. I used .h
 My first goal was to ensure that after sorting and cleaning up the csv, all of the data would be properly wrapped/formatted to each cell to avoid manual adjusting within excel.
 I researched many StackExchange posts, and eventually came to use the tk python module to wrap the text.
 
+Upon testing this script locally, it holds up to removing NULL columns and ensuring that data that is present in a column with almost all NULL values is not removed. All the data is properly wrapped and fitted to each cell, and data presented as "########" in excel is readable.
+
 
 To be able to run locally, if using PowerShell, type "python --version". If you receive an error, you must download and install python on your local device. If you already have Python installed, then you may proceed with running the script. Ensure your permissions are set appropriately to run scripts.
