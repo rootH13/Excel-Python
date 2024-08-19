@@ -18,3 +18,5 @@ Here are the following modules you may need to install via 'pip install' to ensu
   *openpyxl
   *tabulate
   *easygui
+
+I have included an example using a public dataset from Kaggle, showing the before and after of running my code for reference! See "Example" folder in this repository.
