@@ -9,5 +9,12 @@ I researched many StackExchange posts, and eventually came to use the tk python 
 
 Upon testing this script locally, it holds up to removing NULL columns and ensuring that data that is present in a column with almost all NULL values is not removed. All the data is properly wrapped and fitted to each cell, and data presented as "########" in excel is readable.
 
+I then updated my script to be a PowerShell script (.ps1). It is now fully functional, with instruction message boxes as well (thanks to this StackOverflow post: https://stackoverflow.com/questions/2963263/how-can-i-create-a-simple-message-box-in-python).
 
 To be able to run locally, if using PowerShell, type "python --version". If you receive an error, you must download and install python on your local device. If you already have Python installed, then you may proceed with running the script. Ensure your permissions are set appropriately to run scripts.
+
+Here are the following modules you may need to install via 'pip install' to ensure this program runs:
+  -tkinter
+  -openpyxl
+  -tabulate
+  -easygui
