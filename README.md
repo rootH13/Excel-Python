@@ -1,4 +1,4 @@
-I created this python code to be able to organize spreadsheets and data that come in the forms of csv.
+I created this python code to be able to organize spreadsheets and data that come in the form of a csv.
 I initially created this project in JupyterLab, and adjusted it to a .py format to run locally.
 
 I used standard data science/organization python skills for dataframes such as .dropna, .head() and more to view all of my data.
