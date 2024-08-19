@@ -14,7 +14,7 @@ I then updated my script to be a PowerShell script (.ps1). It is now fully funct
 To be able to run locally, if using PowerShell, type "python --version". If you receive an error, you must download and install python on your local device. If you already have Python installed, then you may proceed with running the script. Ensure your permissions are set appropriately to run scripts.
 
 Here are the following modules you may need to install via 'pip install' to ensure this program runs:
-  -tkinter
-  -openpyxl
-  -tabulate
-  -easygui
+  *tkinter
+  *openpyxl
+  *tabulate
+  *easygui
